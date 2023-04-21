@@ -41,6 +41,7 @@
 
 .todo-app__item-row-wrapper {
   display: flex;
+  margin-top: 20px;
 }
 
 .todo-app__todo-list,
@@ -49,6 +50,7 @@
   padding: 0px;
 }
 
+.todo-app__todo-add-title,
 .todo-app__todo-item,
 .todo-app__todo-list-title,
 .todo-app__completed-item,
@@ -76,9 +78,11 @@
 }
 
 /* Heading */
+.todo-app__todo-add-title,
 .todo-app__todo-list-title,
 .todo-app__completed-list-title,
 .todo-app__item-label-new-item {
+  display: flex;
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -140,6 +144,7 @@
 }
 
 .todo-app__item-label {
+  display: flex;
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
@@ -175,7 +180,7 @@
   display: none;
 }
 
-.todo-app__input-text {
+.todo-app__todo-item_mode_edit > .todo-app__input-text {
   display: inline-block;
   width: 224px;
 }
