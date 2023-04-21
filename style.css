@@ -4,52 +4,63 @@
   color: #333;
   font-family: Lato, sans-serif;
 }
+
 .header {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
+
 .header__image {
   width: 100%;
 }
+
 .header__link {
   font-family: "fantasy", cursive;
 }
 
 @media (max-width: 768px) {
+
   .header {
     text-align: center;
   }
 }
+
 .center {
   display: block;
   width: 500px;
   margin: 0 auto 0;
 }
+
 .todo-app__item-row {
   width: 56%;
   display: inline-block;
   flex-grow: 1;
 }
+
 .todo-app__item-row-wrapper {
   display: flex;
 }
+
 .todo-app__todo-list,
 .todo-app__completed-list {
   margin: 0;
   padding: 0px;
 }
+
 .todo-app__todo-item,
 .todo-app__todo-list-title,
 .todo-app__completed-item,
 .todo-app__completed-list-title {
   list-style: none;
 }
+
 .todo-app__btn,
 .todo-app__input {
   outline: none;
 }
+
 .todo-app__btn {
   background: none;
   border: 0px;
@@ -59,9 +70,11 @@
   font-family: Lato, sans-serif;
   cursor: pointer;
 }
+
 .todo-app__btn:hover {
   color: #3a3a3a;
 }
+
 /* Heading */
 .todo-app__todo-list-title,
 .todo-app__completed-list-title,
@@ -74,6 +87,7 @@
   margin: 0;
   text-transform: uppercase;
 }
+
 .todo-app__input-new-item,
 .todo-app__input-text {
   margin: 0;
@@ -87,6 +101,7 @@
   font-family: Lato, sans-serif;
   color: #888;
 }
+
 .todo-app__input-new-item:focus,
 .todo-app__input-text:focus {
   color: #333;
@@ -97,6 +112,7 @@
   display: block;
   margin: 0 0 20px;
 }
+
 .todo-app__input-new-item {
   width: 318px;
 }
@@ -113,6 +129,7 @@
   justify-content: space-between;
   align-items: center;
 }
+
 .todo-app__todo-item > *,
 .todo-app__completed-item > * {
   vertical-align: middle;
@@ -121,23 +138,28 @@
 .todo-app__item-checkbox {
   margin: 0 10px;
 }
+
 .todo-app__item-label {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
   width: 226px;
 }
+
 .todo-app__item-label-new-item {
   width: 100%;
 }
+
 .todo-app__input .todo-app__item-row {
   width: 226px;
 }
+
 .todo-app__btn-delete-img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
+
 .todo-app__btn-delete-img:hover {
   transform: rotateZ(0);
 }
@@ -153,7 +175,7 @@
   display: none;
 }
 
-.todo-app__todo-item_mode_edit .todo-app__input-text {
+.todo-app__input-text {
   display: inline-block;
   width: 224px;
 }
