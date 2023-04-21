@@ -48,7 +48,7 @@
   list-style:none;
 }
 .todo-app__btn,
-.todo-app__input{
+.todo-app__input {
   outline:none;
 }
 .todo-app__btn {
@@ -89,7 +89,7 @@
   color: #888;
 }
 .todo-app__input-new-item:focus,
-.todo-app__input-text:focus{
+.todo-app__input-text:focus {
   color: #333;
 }
 
@@ -150,7 +150,7 @@
 }
 
 /* Edit Task */
-.todo-app__input-text{
+.todo-app__input-text {
   display:none
 }
 
